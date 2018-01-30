@@ -29,8 +29,8 @@ int main() {
     size_t size = 0;
     BSTNode *rootPtr = NULL;
 
-    rootPtr = insert(rootPtr, 10);
     rootPtr = insert(rootPtr, 20);
+    rootPtr = insert(rootPtr, 10);
     rootPtr = insert(rootPtr, 30);
 
 
