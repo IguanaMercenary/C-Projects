@@ -61,7 +61,7 @@ void loop(BSTNode *root) {
         sscanf(input, "%c", &argument);
         switch (argument) {
             case 'q':
-                printf("Bye");
+                printf("Bye\n");
                 return;
             case 's':
                 printf("Enter the number you wish to search \n");
