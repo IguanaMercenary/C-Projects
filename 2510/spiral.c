@@ -2,7 +2,9 @@
 #include <stdlib.h>
 #include <malloc.h>
 
-/* https://archived.moe/g/thread/65952131 */
+/* https://archived.moe/g/thread/65952131
+    https://rbt.asia/g/thread/65952131
+ */
 
 static int* SpiralArray(int height, int width) {
     assert(height>0&&width>0);
